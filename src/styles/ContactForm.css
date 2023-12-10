@@ -1,0 +1,80 @@
+.contact-form-container {
+    max-width: 300px; 
+    padding: 30px; 
+    box-shadow: 0 0 10px rgba(172, 151, 151, 0.1);
+    margin-bottom: 90px !important;
+    margin-top: 100px !important;
+    margin-right: 400px !important;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    margin-bottom: 15px; /* Increase margin for more space */
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column; /* Adjusted to column layout for longer inputs */
+  }
+  
+  .icon {
+    margin-right: 15px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px; /* Adjusted margin for spacing */
+  }
+  .contact-container {
+    display: flex;
+    margin-bottom: 10px; 
+  }
+  
+  .contact-image {
+    flex: 1;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin-right: 0px;
+    margin-top: 110px;
+    margin-left: 40px;
+  }
+  
+  .contact-image img {
+    max-width: 80%;
+    max-height: 80%; 
+  }
+  
+  .contact-form-container {
+    flex: 1;
+    max-width: 400px;
+    margin-left: 0px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px !important; 
+    margin-top: 100px !important;
+  }
+  
+  /* Add other styles as needed */
+  
+  

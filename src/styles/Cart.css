@@ -1,0 +1,36 @@
+.table tr td img{
+    width: 60px !important;
+    height: 80px !important;
+    object-fit: contain;
+}
+
+td i{
+    cursor: pointer;
+}
+
+td,
+th{
+    color: var(--primary-color);
+}
+.delete-button {
+    background-color: #ff0000; 
+    color: #ffffff; 
+    padding: 5px 10px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-button:hover {
+    background-color: #cc0000; 
+  }
+  .btn__cart{
+    padding: 20px;
+    background: var(--primary-color);
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0px !important;
+    margin-bottom: 20px;
+    margin-left: 60px !important;
+}
+  

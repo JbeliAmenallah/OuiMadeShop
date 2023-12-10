@@ -1,0 +1,44 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: var(--primary-color);
+}
+
+
+.footer__text{
+    line-height: 30px;
+    color: rgba(255,255,255,0.735);
+}
+.footer__quick-links ul li{
+    background:transparent !important;
+}
+.footer__quick-links ul li{
+    color: rgba(255,255,255,0.735);
+}
+
+.quick__links-title{
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+
+/* Add this to your CSS file */
+.link-on-hover {
+    font-weight: normal; /* Set the initial font weight */
+    transition: color 0.3s, font-weight 0.3s; /* Add a smooth transition effect */
+    cursor: pointer;
+  }
+  
+  .link-on-hover:hover {
+    color: white; /* Change text color to white on hover */
+    font-weight: bold; /* Make the font bold on hover */
+  }
+  
+.logo{
+    margin: 10px;
+}
+
+.footer__contact li{
+    color: rgba(255,255,255,0.735);
+}

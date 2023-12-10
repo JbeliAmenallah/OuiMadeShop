@@ -1,0 +1,40 @@
+.filter__widget select{
+    padding: 7px 20px;
+    border: 1px solid ;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #dddddd;
+    color:#000000;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.filter__widget select:focus{
+    outline: none !important;
+}
+
+.filter__widget select option{
+    font-size: .9rem;
+
+}
+
+.search__box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    border: 1px solid #121313;
+    padding-right: 10px;
+    padding-left: 12px;
+}
+
+.search__box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    
+}

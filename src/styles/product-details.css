@@ -1,0 +1,47 @@
+.product__details{
+    margin-top: 50px;
+}
+
+.product__details h2{
+    font: 1.8rem;
+    margin-bottom: 10px;
+    margin-right:450px ;
+}
+
+.product__details span i{
+    color: coral;
+}
+
+.product__rating p span{
+    color:  coral;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.product__price{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.short-description {
+    font-size: 18px;
+    color: #0f0f0f;
+    margin-top: 10px;
+
+  }
+.section-heading {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .crystal-bags-description {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .category__detail {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 8px;
+    font-weight: bold;
+  }
